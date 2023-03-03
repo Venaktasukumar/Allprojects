@@ -368,7 +368,7 @@ class Main {
                 }
             }
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            l.info("something WronG"+e);
         }
         l.info("Before Sorting:");
         l.log(Level.INFO, () -> "" + hash);
