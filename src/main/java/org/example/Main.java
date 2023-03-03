@@ -38,7 +38,7 @@ class Main {
                     break;
                 }
                 else{
-                    l.info("invalid choice");
+                    l.info("invalid Choice");
                 }
             }
         }
@@ -105,12 +105,12 @@ class Main {
                     break;
                 }
                 else{
-                    l.info("invalid choice");
+                    l.info("Invalid Choice");
                 }
             }
         }
         catch(Exception e){
-            l.info("Something went wrong in giving the input "+e);
+            l.info("Something Went Wrong in giving the input "+e);
         }
     }
 
@@ -143,12 +143,12 @@ class Main {
                     break;
                 }
                 else{
-                    l.info("invalid choice");
+                    l.info("Invalid choice");
                 }
             }
         }
         catch(Exception e){
-            l.info("Something went wrong in giving input "+e);
+            l.info("Something went wrong In giving input "+e);
         }
     }
 
@@ -299,7 +299,7 @@ class Main {
                         t = false;
                         break;
                     default:
-                        l.info("invalid choice: choose correct option");
+                        l.info("invalid choice: Choose Correct option");
                 }
             }
         } catch (Exception e) {
@@ -344,7 +344,7 @@ class Main {
                         k = false;
                         break;
                     default:
-                        l.info("invalid choice");
+                        l.info("InvaliD choice");
 
                 }
             }
@@ -420,7 +420,7 @@ class Main {
             }
         }
         catch(Exception e){
-            l.info("Something went wrong"+e);
+            l.info("SomethinG went wrong"+e);
         }
     }
     static void hashmap(){
@@ -514,7 +514,6 @@ class Main {
             l.info("1.SimpleBankAccount\n2.BasicShape\n3.StudentGPA\n4.Databaseconnectionpool\n5.Basicpointclone\n6.Creditcardclone\n7.StudentTestGPAsort\n8.Simplecalculator\n9.ContactOperations\n10.Wordfrequencyinfile\n11.TicTacToeGame\n12.Hashmap\n13.Hashset\n14.Treeset\n15.Exit");
             l.info("Enter your choice");
             int choice = sc.nextInt();
-//            sc.nextLine();
             switch (choice) {
                 case 1:
                     Main.bankaccount();
@@ -562,7 +561,7 @@ class Main {
                     k = false;
                     break;
                 default:
-                    l.info("invalid choice: choose correct option");
+                    l.info("Invalid Choice: choose correct option");
             }
         }
     }

@@ -1,5 +1,4 @@
 package org.example;
-import java.util.*;
 import java.util.logging.*;
 class Databaseconnectioon {
     Logger l = Logger.getLogger("com.api.jar");
